@@ -1,0 +1,18 @@
+This ia A Task management App using React JS contains adding of tasks, deleting and also editing of the tasks.
+
+In the index.js I am importing the App.js file and in the App.js I am importing two components into it they are the Header and Todo Components.
+In header.js I just created a Heading Tag to the page which is called as "A Task Management App".
+The main component in this is the Todo.js.It contains all the operations like adding a task,deleting and editing.
+  * Firstly i imported the React library and useState and i used Bootstrap framework for building user interfaces in this Todo App.
+  * I imported the Bootstrap CSS file to apply Bootstrap styling to the components and some React Bootstrap components such as Container, Row, Col, Button, InputGroup, FormControl, and ListGroup.
+  * I createwd two useState hooks and the set the updated value in the functiuon updateInput.
+  * Now A function AddItem which adds all the tasks given by the user into a list. I used spread operator we can add more tasks with the previous tasks when user clicks the "ADD" button .
+    The function DeleteItem deletes the the certain Task if the user wants to the delete the task after the completion of the task.
+    and function EditItem used to edit the name of the task if it entered wrong by the user or any other purpose.
+  * coming into the interface I provided a user input box where user can enter the task of their choice and after Clicking the ADD button present below adds the task.If no task is added it shows a popout box of to enter tne hame of the task.
+  * Later the tasks entered are shown below in a row.each task is divided into block contains the name of the task And have two buttons "DELET0E" and "EDIT".
+  user clicks the delete button deletes the task and if it is edit it shows a pop out to reenter the task name.
+  * Task Management App is completed...
+  
+   
+  
